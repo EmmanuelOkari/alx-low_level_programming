@@ -17,3 +17,20 @@ At the end of this project, I'm able to explain to anyone, without the help of G
 * What is the official C coding style and how to check your code with betty-style
 * How to find the right header to include in your source code when using a standard library function
 * How does the main function influence the return value of the program
+
+# TASKS
+
+## 0. Preprocessor
+
+Write a script that runs a C file through the preprocessor and save the result into another file.
+
+* The C file name will be saved in the variable $CFILE
+* The output should be saved in the file c
+
+## 1. Compiler
+
+Write a script that compiles a C file but does not link.
+
+* The C file name will be saved in the variable $CFILE
+* The output file should be named the same as the C file, but with the extension .o instead of .c.
+** Example: if the C file is main.c, the output file should be main.o
