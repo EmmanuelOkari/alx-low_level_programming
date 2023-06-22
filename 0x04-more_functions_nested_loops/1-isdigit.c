@@ -13,5 +13,5 @@ if (c >= 48 && c <= 57)
 {
 return (1);
 }
-return (o);
+return (0);
 }
